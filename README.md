@@ -1,4 +1,6 @@
 # nk — the NETHOS kernel
+Written in Rust at its core, nk runs Linux software and integrates Linux hardware support without making Linux the identity of the system. Every layer exists in service of the environment above it.
+
 
 A kernel of our own that runs **unmodified Linux drivers**. It is a sibling of
 NETHOS, not a replacement for anything in it: `scripts/build-x86.sh` and
